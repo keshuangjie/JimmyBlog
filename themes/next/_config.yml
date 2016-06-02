@@ -26,9 +26,9 @@ rss:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
   #about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
   #commonweal: /404.html
 
@@ -65,7 +65,7 @@ scheme: Mist
 # Font Settings
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
 # - All fonts set here will have the following styles:
-#     light, light italic, normal, normal intalic, bold, bold italic
+#     light, light italic, ght brightnormal, normal intalic, bold, bold italic
 # - Be aware that setting too much fonts will cause site running slowly
 # - Introduce in 5.0.1
 # ---------------------------------------------------------------
@@ -198,7 +198,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.

@@ -1,6 +1,7 @@
 ---
 title: Svn Command
 date: 2016-06-01 15:16:10
+categories: svn
 tags: svn
 ---
 # Checkout
@@ -14,6 +15,8 @@ tags: svn
 # Update
 
     svn update
+
+<!-- more -->
 
 # Add
 添加目录下的所有文件，包括忽视的文件
