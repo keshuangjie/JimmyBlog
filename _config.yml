@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://keshuangjie.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -47,6 +47,18 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# 分页
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -71,3 +83,11 @@ deploy:
   type: git
   repository: https://github.com/keshuangjie/keshuangjie.github.io.git
   branch: master
+
+#多说评论
+duoshuo_shortname: keshuangjie
+# 多说热评文章 true 或者 false
+duoshuo_hotartical: true
+
+#百度统计
+baidu_analytics: 9e9d54ebc938fae652c6ea1455a3c2c5
